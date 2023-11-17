@@ -1,21 +1,25 @@
 @import url(reset.css);
 
-header, main, footer{
-    border: solid 1px;
+body{
+    font-family: sans-serif;
+    display: grid;
+    height: 100vh;
 }
-
 
 .title{
     font-size: 3em;
 }
 
+header{
+    align-self: center;
+    justify-self: center;
+}
 .challenges{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     padding: 1rem;
 }
-
 .challenge-card{
     background-color: #262626e9;
     color: #f1f1f1;
@@ -24,7 +28,21 @@ header, main, footer{
     width: fit-content;
     height: auto;
 }
+.challenge-card figure img{
+    border-radius: 1rem;
+    width: 100%;
+    min-width: 200px;
+    height: auto;
+    margin: 1em 0;
+}
 
+.challenge-title{
+    font-size: 1.5em;
+}
 
+footer{
+    justify-self: center;
+    align-self: flex-end;
+}
 
 
