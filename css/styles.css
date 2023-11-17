@@ -1,33 +1,30 @@
 @import url(reset.css);
 
-body{
-    display: grid;
-    grid-template-columns: auto ;
-    grid-template-rows: auto auto auto;
-    width: 100vw;
-    height: 100vh;
+header, main, footer{
+    border: solid 1px;
 }
 
-header{
-    justify-self: center;
-    align-self: center;
-    font-size: 32px;
+
+.title{
+    font-size: 3em;
 }
 
-main{
-    padding: 5vw;
+.challenges{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1rem;
 }
 
-figure{
-    width: min-content;
-    margin: 2vh 0;
+.challenge-card{
+    background-color: #262626e9;
+    color: #f1f1f1;
+    border-radius: 1rem;
+    padding: 2em;
+    width: fit-content;
+    height: auto;
 }
 
-h2{
-    font-size: 22px;
-}
 
-footer{
-    align-self: flex-end;
-    justify-self: center;
-}
+
+
